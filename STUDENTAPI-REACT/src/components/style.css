@@ -1,0 +1,140 @@
+.student-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 4px 16px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input, select {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.btn-group {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 10px 8px 10px 0;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-blue {
+  background-color: #007bff;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+}
+
+.btn-green {
+  background-color: #28a745;
+}
+
+.btn-green:hover {
+  background-color: #1c7c34;
+}
+
+.btn-red {
+  background-color: #dc3545;
+}
+
+.btn-red:hover {
+  background-color: #a71d2a;
+}
+
+.btn-gray {
+  background-color: #6c757d;
+}
+
+.btn-gray:hover {
+  background-color: #565e64;
+}
+
+/* Table container removed to avoid scroll */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.message {
+  margin-top: 20px;
+  color: #dc3545;
+  font-weight: 500;
+}
+.message-banner {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50; 
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  z-index: 1000;
+  text-align: center;
+  min-width: 300px;
+  max-width: 80%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.message-banner.error {
+  background-color: #f44336;
+}
+
+.message-banner.success {
+  background-color: #4caf50; 
+}
